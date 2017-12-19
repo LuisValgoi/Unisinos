@@ -1,3 +1,5 @@
+asidjaisdjas
+
 // Exercicio 10
 
 // A - Classe = agrupador de objetos, métodos, atributos. Pode também ser considerado uma representação de uma entidade da vida real.
