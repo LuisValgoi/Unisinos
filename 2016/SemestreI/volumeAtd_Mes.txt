@@ -1,0 +1,24 @@
+Relatório Mensal de fluxo de atendimentos
+
+Total de atendimentos: 15711
+
+Quantidade de atendimentos por serviço::
+Serviço: IPTU, Total: 5182
+Serviço: Protocolo, Total: 5276
+Serviço: Saúde, Total: 5253
+
+Quantidade de atendimentos prioritários por serviço::
+Serviço: IPTU, Total: 1049
+Serviço: Protocolo, Total: 1051
+Serviço: Saúde, Total: 1016
+
+Dias com maior demanda de cada serviço::
+Serviço: IPTU, Dia: 20. Qtd: 262
+Serviço: Protocolo, Dia: 8. Qtd: 275
+Serviço: Saúde, Dia: 18. Qtd: 281
+
+Serviço com maior demanda: Protocolo
+Qtd atendimentos: 5276
+
+Serviço com menor demanda: IPTU
+Qtd atendimentos: 5182
