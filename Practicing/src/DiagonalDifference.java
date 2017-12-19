@@ -1,3 +1,7 @@
+/*
+ * Complexity: O(n²)
+ */
+
 public class DiagonalDifference {
 	public static void main(String[] args) {
 		int[][] matrix = {{11,12,13}, 
