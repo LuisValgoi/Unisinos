@@ -2,10 +2,11 @@
  * Complexity: O(1)
  * 
  * Explanation:
- * - We know that:
- * - 1 hour has 30º
- * - 1 minute has 6º
- * - Minutes do change the pointer clock
+ * We know that:
+ * 1 hour has 30º
+ * 1 minute has 6º
+ * Minutes do change the pointer clock
+ * 
  */
 
 public class Clock {

@@ -11,7 +11,8 @@
  * We know that to get the normal diagonal is: 
  * first for index = second for index
  * We also know that to get the inverted diagonal is:
- * matrix row - sum of (row current index + col current index) 
+ * matrix row - sum of (row current index + col current index)
+ *  
  */
 
 public class DiagonalDifference {
