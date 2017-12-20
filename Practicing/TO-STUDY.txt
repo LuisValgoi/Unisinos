@@ -12,7 +12,6 @@
 - Students and Examination 
 - Employees and UIN (left join)
 - Redundancy in a LinkedList (while aninhado)
-- Consecutive Sum
 
 
 # IBSO/CD
