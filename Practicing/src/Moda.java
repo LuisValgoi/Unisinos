@@ -1,5 +1,18 @@
 /*
- * Complexity: O(n²) 
+ * Complexity: 
+ * O(n²) 
+ * 
+ * 
+ * What we want:
+ * We want the number of our array that has more occurrence
+ * 
+ * 
+ * Explanation:
+ * We have a for that gets the current value
+ * We have a second for that walks after it
+ * We check if it is equals
+ * We add to our external variables and we incremet the occurence variables
+ * 
  */
 
 public class Moda {

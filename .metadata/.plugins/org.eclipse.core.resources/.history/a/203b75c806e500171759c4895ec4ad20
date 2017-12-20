@@ -1,0 +1,10 @@
+
+public class Clock {
+	public static void main(String[] args){
+		System.out.println("1:30 in the clock has: " + getClockPointerAngle(1, 30) + " angles between its pointers.");		
+	}
+	
+	private static int getClockPointerAngle(int hour, int minutes){
+		
+	}
+}

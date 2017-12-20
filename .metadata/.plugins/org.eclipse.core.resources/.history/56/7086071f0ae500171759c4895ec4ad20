@@ -1,0 +1,47 @@
+/*
+ * Complexity: O(1)
+ * 
+
+- função que espera 2 parametros (1 hora, 1 minutos)
+- considerar if 12 da hora como 0
+- sabe se que: 1 hora tem 30 graus (baseia-se por 90º), 1 minuto tem 6 graus (regra de 3).
+
+- angHora = argHora * 30 + (argMin / 60) * 30
+-- argHora * 30 + a quantidade de graus influenciados pelo ponteiros dos min.
+-- essa influencia é a porcetagem para ser 1 hora * 30 de cada casa
+
+- angMin = argMin * 6
+
+- se angHora > angMin = final = angHora - angMin 
+- se angMin > angHora = final = angMin - angHora
+
+ */
+
+public class Clock {
+	public static void main(String[] args){
+		System.out.println("1:30 in the clock has: " + getClockPointerAngle(1, 30) + "º between its pointers.");
+		System.out.println("2:30 in the clock has: " + getClockPointerAngle(2, 30) + "º between its pointers.");
+	}
+
+	private static double getClockPointerAngle(int hour, int minutes){
+		double angHours = 0;
+		double angMinutes = 0;
+
+		if(hour == 12){
+			angHours = 0;
+		}
+
+		// we know that each hour has 30º
+		double minutesInfluence = (minutes / 60.0) * 30;
+		angHours = (hour * 30) + (minutesInfluence);
+
+		// we know that each minute has 6º
+		angMinutes = minutes * 6;
+
+		if(angHours > angMinutes){
+			return angHours - angMinutes;		
+		}else{
+			return angMinutes - angHours;
+		}
+	}
+}

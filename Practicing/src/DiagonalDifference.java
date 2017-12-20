@@ -1,5 +1,17 @@
 /*
- * Complexity: O(n²)
+ * Complexity:
+ * O(n²)
+ * 
+ * 
+ * What we want:
+ * We want the difference between the normal diagonal and the inverted diagonal
+ * 
+ * 
+ * Explanation:
+ * We know that to get the normal diagonal is: 
+ * first for index = second for index
+ * We also know that to get the inverted diagonal is:
+ * matrix row - sum of (row current index + col current index) 
  */
 
 public class DiagonalDifference {
