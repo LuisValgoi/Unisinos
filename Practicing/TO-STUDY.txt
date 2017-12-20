@@ -1,0 +1,26 @@
+/*
+*** TO STUDY ***
+*/
+
+
+# Advanced Data Structure
+- LinkedList
+
+
+# Algorithms
+- The Robot Class
+- Students and Examination 
+- Employees and UIN (left join)
+- Redundancy in a LinkedList (while aninhado)
+- Consecutive Sum
+- Inverted String
+- Palindrome
+
+
+# IBSO/CD
+- SAP BOPF Knowledge
+- SAP CDS Knowledge
+- UML with Business rule
+- TAM Diagram
+- Know about E-Commerce business role
+- Orders/Jobs/BackOffice/Solar/Facet/

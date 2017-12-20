@@ -1,8 +1,0 @@
-- SAP BOPF Knowledge
-- SAP CDS Knowledge
-
-- The Robot Class
-- Students and Examination 
-- Employees and UIN (left join)
-- Redudancy in a LinkedList (while aninhado)
-- Consecutive Sum
