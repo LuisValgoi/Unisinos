@@ -1,3 +1,19 @@
+/*
+ * Complexity:
+ * O(2n) ou O(n)
+ * 
+ * 
+ * What we want?
+ * We want the array with the sum of all others positions except the current one
+ * 
+ * 
+ * Explanation:
+ * We go through the array multiplying to a temp variable all the positions
+ * This will result in all the positions multiplied
+ * Then, you go through the array again...
+ * putting at the current position the division with the total and the value of the current position
+ * 
+ */
 
 public class ArrayMulitply {
 

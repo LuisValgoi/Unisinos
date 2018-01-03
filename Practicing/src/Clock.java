@@ -1,5 +1,11 @@
 /*
- * Complexity: O(1)
+ * Complexity: 
+ * O(1)
+ * 
+ * 
+ * What we want?
+ * We want the in degrees, the difference between the bigger and smaller clock pointer.
+ * 
  * 
  * Explanation:
  * We know that:
