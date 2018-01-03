@@ -9,10 +9,13 @@
  * 
  * Explanation:
  * We know that to get the normal diagonal is: 
- * first for index = second for index
+ * row == col 
  * We also know that to get the inverted diagonal is:
- * matrix row - sum of (row current index + col current index)
- *  
+ * row.length - 1 (rows size) == row + col
+ * 
+ * | 00 | 01 | 02 |
+ * | 10 | 11 | 12 |
+ * | 20 | 21 | 22 |
  */
 
 public class DiagonalDifference {
