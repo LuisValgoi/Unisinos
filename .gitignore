@@ -1,0 +1,6 @@
+2016/SemestreI/bin
+2016/SemestreII/bin
+.project
+.classpath
+*/.settings
+*.DS_Store
